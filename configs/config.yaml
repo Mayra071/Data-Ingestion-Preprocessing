@@ -1,0 +1,22 @@
+# Data Anchor Project Configuration
+
+# Data paths
+data:
+  raw_data_path: "../artifacts/data.csv"
+  reports_path: "reports/"
+
+# Model configuration
+model:
+  test_size: 0.3
+  random_state: 42
+  target_column: "Survived"
+  drop_columns : ['PassengerId', 'Name', 'Ticket', 'Cabin']
+  features:
+    numerical: ['Age', 'SibSp', 'Parch', 'Fare']
+    categorical: ['Sex', 'Embarked']
+
+# Visualization
+visualization:
+  figure_size: [10, 6]
+  style: "whitegrid"
+  color_palette: "Set2"

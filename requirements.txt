@@ -1,0 +1,10 @@
+pandas
+numpy
+scikit-learn==1.6.1
+matplotlib
+dotenv
+seaborn
+pymysql
+cryptography
+hydra-core
+pandera[pandas]
