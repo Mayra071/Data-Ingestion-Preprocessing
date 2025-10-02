@@ -32,6 +32,8 @@ This repository implements a complete machine learning pipeline for predicting T
 - matplotlib/seaborn for visualization
 
 📂 Repository Structure
+
+```
 .
 ├── artifacts/                # Raw & processed datasets, models (gitignored, tracked via DVC)
 │   ├── data.csv.dvc          # DVC tracked raw data
@@ -67,6 +69,7 @@ This repository implements a complete machine learning pipeline for predicting T
 ├── .dvcignore                # DVC ignore patterns
 ├── .gitignore                # Git ignore patterns
 └── README.md                 # Project documentation
+```
 
 🚀 Getting Started
 
